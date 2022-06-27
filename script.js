@@ -7,12 +7,6 @@ const collection = [];
 
 /* eslint-disable no-use-before-define */
 
-// Remove book
-const removeBook = function () {
-  collection.splice(this, 1);
-  updateUI(collection);
-};
-
 // Add book
 const updateUI = () => {
   bookAdd.innerHTML = '';
@@ -40,6 +34,12 @@ btn.addEventListener('click', (event) => {
     author.value = '';
   }
 });
+
+// Remove book
+const removeBook = function () {
+  collection.splice(this, 1);
+  updateUI(collection);
+};
 
 // Local storage
 const titleInput = document.getElementById('title');
