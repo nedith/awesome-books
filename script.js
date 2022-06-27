@@ -38,6 +38,7 @@ btn.addEventListener('click', (event) => {
     author.value = '';
   }
 });
+/* eslint-disable no-use-before-define */
 
 // Local storage
 const titleInput = document.getElementById('title');
