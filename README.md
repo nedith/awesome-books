@@ -1,62 +1,50 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Awesome books App
 
-# Project Name
-
-> Description the project.
-
+> This Project is about building a basic website that allows users to add/remove books from a list
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- Javascript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://nedith.github.io/awesome-books/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+-Clone the project via terminal or download the package.
+-Open index.html file via browser
 
 ### Prerequisites
 
-### Setup
+-Any web browser
 
-### Install
+### Setup
+git clone git@github.com:nedith/awesome-books.git
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+Open index.html in the browser
 
 ## Authors
 
-👤 **Author1**
+👤 **EdithNaisanga**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@nedith](https://github.com/nedith)
+- Twitter: [@edithnaisanga](https://twitter.com/edithnaisanga)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/https://www.linkedin.com/in/edith-naisanga-19396856/)
 
-👤 **Author2**
+👤 **Md Saib**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/MdSaib)
+- Twitter: [@twitterhandle](https://twitter.com/@mdsaib45)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/nedith/awesome-books/issues).
 
 ## Show your support
 
