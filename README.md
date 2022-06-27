@@ -18,14 +18,15 @@
 
 ### Prerequisites
 
--Any web browser
+- Basic HTML knowledge
+- Basic JavaScript knowledge
 
 ### Setup
 git clone git@github.com:nedith/awesome-books.git
 
 ### Usage
-
-Open index.html in the browser
+- Switch to awesome-books directory
+- Click live server to open index.html in the browser
 
 ## Authors
 
