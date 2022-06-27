@@ -40,7 +40,6 @@ btn.addEventListener('click', (event) => {
 });
 
 // Local storage
-const form = document.querySelector('#form');
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
 
