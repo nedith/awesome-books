@@ -42,7 +42,6 @@ const removeBook = function () {
 };
 
 // Local storage
-const form = document.getElementById('#form');
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
 
