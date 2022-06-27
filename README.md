@@ -13,8 +13,8 @@
 
 ## Getting Started
 
--Clone the project via terminal or download the package.
--Open index.html file via browser
+- Clone the project via terminal or download the package.
+- Open index.html file via browser
 
 ### Prerequisites
 
@@ -53,8 +53,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
