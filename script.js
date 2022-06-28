@@ -55,27 +55,3 @@ function removeBook() {
   saveBooks(collection);
   displayBookData();
 }
-
-// Local storage
-// const titleInput = document.getElementById('title');
-// const authorInput = document.getElementById('author');
-
-// function handleChange() {
-//   const formData = {
-//     titleData: titleInput.value,
-//     authorData: authorInput.value,
-//   };
-//   localStorage.setItem('form', JSON.stringify(formData));
-// }
-
-// document.addEventListener('DOMContentLoaded', () => {
-//   const getFormValue = localStorage.getItem('form');
-//   if (getFormValue) {
-//     const formObject = JSON.parse(getFormValue);
-//     titleInput.value = formObject.titleData;
-//     authorInput.value = formObject.authorData;
-//   }
-// });
-
-// titleInput.onchange = handleChange;
-// authorInput.onchange = handleChange;
