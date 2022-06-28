@@ -11,7 +11,7 @@ class Book {
     const existingBooks = JSON.parse(localStorage.getItem('mybooks'));
     const afterRemoved = existingBooks.filter(
       (book) => Number(book.id) !== Number(bookId)
-    );
+    )
 
     localStorage.setItem('mybooks', JSON.stringify(afterRemoved));
   }
