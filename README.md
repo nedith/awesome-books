@@ -7,10 +7,6 @@
 - HTML
 - Javascript
 
-## Live Demo 
-
-[Live Demo Link](https://nedith.github.io/awesome-books/)
-
 ## Getting Started
 
 - Clone the project via terminal or download the package.

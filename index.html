@@ -4,38 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Awesome Books</title>
   </head>
+
   <body>
     <header>
-      <h1>Awesome Books</h1>
+      <h1>All awesome books</h1>
     </header>
-    <div class="book"></div>
-    <form id="form">
-      <label for="title">
-        <input
-          id="title"
-          name="title"
-          placeholder="Title"
-          type="text"
-          required
-        />
-      </label>
-      <br />
-      <br />
-      <label for="author">
-        <input
-          id="author"
-          name="author"
-          placeholder="Author"
-          type="text"
-          required
-        />
-      </label>
-      <br />
-      <br />
-      <button class="submit" type="submit">Add</button>
-    </form>
-    <script src="script.js"></script>
+    <main>
+      <section>
+        <ul id="books"></ul>
+        <script type="module">
+          UI.displayBooks();
+        </script>
+      </section>
+      <section class="form_section">
+        <div class="form-div"></div>
+        <h3>Add a new book</h3>
+        <form action="/">
+          <input type="text" name="title" placeholder="Title" /><br />
+          <input type="text" name="author" placeholder="Author" /><br />
+          <button id="add" type="submit">Add</button>
+        </form>
+      </section>
+    </main>
+    <script src="./JS/storage.js"></script>
+    <script src="./JS/book.js"></script>
+    <script src="./JS/ui.js"></script>
   </body>
 </html>
