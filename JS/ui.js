@@ -1,32 +1,32 @@
 /* eslint-disable no-unused-vars, no-undef, no-return-assign */
 class UI {
-  static displayBooks() {
-    const addButton = document.getElementById('add');
-    const booksUL = document.getElementById('books');
-    const { allBooks } = Storage;
+  // static displayBooks() {
+  //   const addButton = document.getElementById('add');
+  //   const booksUL = document.getElementById('books');
+  //   const { allBooks } = Storage;
 
-    allBooks.forEach((book, index) => {
-      const li = document.createElement('li');
-      if (index % 2 === 0) {
-        li.classList.add('grey');
-      } else {
-        li.classList.add('whiteSmoke');
-      }
-      li.innerHTML = `
-               <div>
-                  <h3>"${book.title}" </h3>
-                  <span> by ${book.author}</span>
-                </div> 
-                <button data-id="${book.id}" type="button">Remove</button>
-            `;
+  //   allBooks.forEach((book, index) => {
+  //     const li = document.createElement('li');
+  //     if (index % 2 === 0) {
+  //       li.classList.add('grey');
+  //     } else {
+  //       li.classList.add('whiteSmoke');
+  //     }
+  //     li.innerHTML = `
+  //              <div>
+  //                 <h3>"${book.title}" </h3>
+  //                 <span> by ${book.author}</span>
+  //               </div> 
+  //               <button data-id="${book.id}" type="button">Remove</button>
+  //           `;
 
-      booksUL.appendChild(li);
-    });
+  //     booksUL.appendChild(li);
+  //   });
 
-    addButton.addEventListener('click', UI.addBook);
+  //   addButton.addEventListener('click', UI.addBook);
 
-    booksUL.addEventListener('click', (event) => UI.remove(event));
-  }
+  //   booksUL.addEventListener('click', (event) => UI.remove(event));
+  // }
 
   static addBook(event) {
     event.preventDefault();
