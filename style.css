@@ -24,6 +24,12 @@
   height: 30px;
 }
 
+ul h3 {
+  margin: 0 10px;
+  display: inline-block;
+  padding: 10px 2px;
+}
+
 button {
   box-shadow: 1px 1px 2px 1px #666;
 }
@@ -84,7 +90,7 @@ form input {
 #add {
   padding: 1%;
   font-size: 90%;
-  margin-left: 87%;
+  margin-left: 84%;
 }
 
 header h1 {

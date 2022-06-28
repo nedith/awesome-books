@@ -13,7 +13,10 @@ class UI {
         li.classList.add('whiteSmoke');
       }
       li.innerHTML = `
-                <p>${book.title} by ${book.author} <p>
+               <div>
+                  <h3>"${book.title}" </h3>
+                  <span> by ${book.author}</span>
+                </div> 
                 <button data-id="${book.id}" type="button">Remove</button>
             `;
 
@@ -54,8 +57,10 @@ class UI {
     const newBookToAppend = document.createElement('li');
 
     newBookToAppend.innerHTML = `
-            <p>${newBook.title} by ${newBook.author}</p>
-          
+             <div>
+              <h3>"${newBook.title}" </h3>
+              <span> by ${newBook.author}</span>
+            </div>          
             <button data-id="${newBook.id}" type="button">Remove</button>
         `;
 
