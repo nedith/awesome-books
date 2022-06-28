@@ -20,7 +20,7 @@ function displayBookData() {
 }
 displayBookData();
 
-btn.addEventListener('submit', (event) => {
+btn.addEventListener('click', (event) => {
   event.preventDefault();
   if (title.value && author.value) {
     const obj = { title: title.value, author: author.value };
