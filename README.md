@@ -14,6 +14,9 @@
 - CSS
 - Javascript
 
+# Live Demo
+Please click on this [link](https://nedith.github.io/awesome-books/) for a live demo.
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps below
